@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #607D8B;
+}
+.o-center {
+  width          : 100%;
+  height         : 100vh;
+  display        : flex;
+  align-items    : center;
+  justify-content: center; //centering it
+  flex-wrap      : wrap;
+  flex-direction : row;
+  .calculator {
+    width                     : 226px;
+    height                    : 326px;
+    display                   : flex;
+    align-items               : center;
+    justify-content           : center;
+    flex-wrap                 : wrap;
+    flex-direction            : row;
+    box-shadow                : 1px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius             : 7px;
+    transition                : 500ms ease-in-out;
+    .output {
+      width           : 226px;
+      height          : 50px;
+      border          : 1px solid #ffaa00;
+      background-color: #232323;
+      color           : #ffaa00;
+      display         : flex;
+      justify-content : flex-end;
+      align-items     : center;
+      font-family     : sans-serif;
+      padding-right   : 6px;
+      text-shadow     : -1px 1px 1px #000000;
+      border-bottom-color: #FFCC65;
+    }
+    .output:before{
+      content:"FreeCodeCamp Calculator";
+      margin-bottom:69px;
+      margin-right:68px;
+      font-size:0.6em;
+      color:floralwhite;
+    }
+    .keypad {
+      display                   : flex;
+      width                     : 226px;
+      background-color          : #ffaa00;
+      flex-direction            : row;
+      flex-wrap                 : wrap;
+      align-self                : center;
+      justify-content           : space-around;
+      border                    : 9px solid #ffaa00;
+      border-bottom-left-radius : 7px;
+      border-bottom-right-radius: 7px;
+      .press {
+        font-size       : 1em;
+        width           : 50px;
+        height          : 50px;
+        margin          : 1px;
+        background-color: floralwhite;
+        transition      : 100ms ease-in-out;
+      }
+      .press:hover {
+        background-color: white;
+        color           : #1565C0;
+      }
+      .press:active {
+        background-color: white;
+        color           : #000;
+        font-size       : 1.4em;
+      }
+      .btl {
+        border-bottom-left-radius: 5px;
+      }
+      .btr {
+        border-bottom-right-radius: 5px;
+      }
+      .tpr {
+        border-top-right-radius: 5px;
+      }
+      .tpl {
+        border-top-left-radius: 5px;
+      }
+      .oprtrCalc {
+        border-left: 4px solid floralwhite;
+        transition : 100ms ease-in-out;
+      }
+      .oprtrCalc:hover {
+        border-left-color: #00BCD4;
+      }
+      .oprtrCalc:active {
+        border-left-color: #000;
+      }
+      .num-calc {
+        border-top: 4px solid floralwhite;
+      }
+      .num-calc:hover {
+        border-top-color: #fa0000;
+      }
+      button {
+        border: 0;
+        outline-style:none;
+      }
+    }
+  }
+  .calculator:hover {
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.0);
+  }
+  .hdr{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction:column;
+  }
+}
