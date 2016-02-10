@@ -13,36 +13,37 @@ body {
   flex-wrap      : wrap;
   flex-direction : row;
   .calculator {
-    width                     : 226px;
-    height                    : 326px;
-    display                   : flex;
-    align-items               : center;
-    justify-content           : center;
-    flex-wrap                 : wrap;
-    flex-direction            : row;
-    box-shadow                : 1px 10px 20px rgba(0, 0, 0, 0.5);
-    border-radius             : 7px;
-    transition                : 500ms ease-in-out;
+    width          : 226px;
+    height         : 326px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    flex-wrap      : wrap;
+    flex-direction : row;
+    box-shadow     : 1px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius  : 7px;
+    transition     : 500ms ease-in-out;
     .output {
-      width           : 226px;
-      height          : 50px;
-      border          : 1px solid #ffaa00;
-      background-color: #232323;
-      color           : #ffaa00;
-      display         : flex;
-      justify-content : flex-end;
-      align-items     : center;
-      font-family     : sans-serif;
-      padding-right   : 6px;
-      text-shadow     : -1px 1px 1px #000000;
+      width              : 226px;
+      height             : 50px;
+      border             : 1px solid #ffaa00;
+      background-color   : #232323;
+      color              : #ffaa00;
+      display            : flex;
+      justify-content    : flex-end;
+      align-items        : center;
+      font-family        : sans-serif;
+      padding-right      : 6px;
+      text-shadow        : -1px 1px 1px #000000;
       border-bottom-color: #FFCC65;
     }
-    .output:before{
-      content:"FreeCodeCamp Calculator";
-      margin-bottom:69px;
-      margin-right:68px;
-      font-size:0.6em;
-      color:floralwhite;
+    .output:before {
+      content      : "\f06d FreeCodeCamp Calculator";
+      font-family  : "FontAwesome";
+      margin-bottom: 69px;
+      margin-right : 51px;
+      font-size    : 0.6em;
+      color        : floralwhite;
     }
     .keypad {
       display                   : flex;
@@ -101,17 +102,17 @@ body {
         border-top-color: #fa0000;
       }
       button {
-        border: 0;
-        outline-style:none;
+        border       : 0;
+        outline-style: none;
       }
     }
   }
   .calculator:hover {
     box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.0);
   }
-  .hdr{
-    display:flex;
+  .hdr {
+    display        : flex;
     justify-content: flex-end;
-    flex-direction:column;
+    flex-direction : column;
   }
 }
