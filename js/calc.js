@@ -1,3 +1,4 @@
+//written by Joceylyn (Saw Siow Hung)
 $(document).ready(function(){
 	var testNumLength = function(number) {
         if (number.length > 9) {
