@@ -1,35 +1,14 @@
-/* line 6, ../scss/style.scss */
+/* line 1, ../scss/style.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 9, ../scss/style.scss */
+/* line 4, ../scss/style.scss */
 body {
   background-color: #607D8B;
 }
-/* line 11, ../scss/style.scss */
-body .latest-changes {
-  width: 100%;
-  height: 50px;
-  background-color: #253137;
-  padding-left: 50px;
-}
-/* line 16, ../scss/style.scss */
-body .latest-changes #HW_badge_cont::before {
-  content: 'Updates';
-  padding: 15px;
-  color: #6C7A82;
-  display: inline-block;
-  margin-left: 20px;
-}
-/* line 23, ../scss/style.scss */
-body .latest-changes #HW_badge.HW_softHidden {
-  background: #FFAA00;
-  opacity: 1;
-  transform: scale(0.6);
-}
 
-/* line 30, ../scss/style.scss */
+/* line 7, ../scss/style.scss */
 .o-center {
   width: 100%;
   height: 100vh;
@@ -39,7 +18,7 @@ body .latest-changes #HW_badge.HW_softHidden {
   flex-wrap: wrap;
   flex-direction: row;
 }
-/* line 38, ../scss/style.scss */
+/* line 15, ../scss/style.scss */
 .o-center .calculator {
   width: 226px;
   height: 326px;
@@ -52,7 +31,7 @@ body .latest-changes #HW_badge.HW_softHidden {
   border-radius: 7px;
   transition: 500ms ease-in-out;
 }
-/* line 49, ../scss/style.scss */
+/* line 26, ../scss/style.scss */
 .o-center .calculator .output {
   width: 226px;
   height: 50px;
@@ -67,7 +46,7 @@ body .latest-changes #HW_badge.HW_softHidden {
   text-shadow: -1px 1px 1px #000000;
   border-bottom-color: #FFCC65;
 }
-/* line 63, ../scss/style.scss */
+/* line 40, ../scss/style.scss */
 .o-center .calculator .output:before {
   content: "\f06d FreeCodeCamp Calculator";
   font-family: "FontAwesome";
@@ -76,7 +55,7 @@ body .latest-changes #HW_badge.HW_softHidden {
   font-size: 0.6em;
   color: floralwhite;
 }
-/* line 71, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 .o-center .calculator .keypad {
   display: flex;
   width: 226px;
@@ -89,7 +68,7 @@ body .latest-changes #HW_badge.HW_softHidden {
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
 }
-/* line 82, ../scss/style.scss */
+/* line 59, ../scss/style.scss */
 .o-center .calculator .keypad .press {
   font-size: 1em;
   width: 50px;
@@ -98,64 +77,64 @@ body .latest-changes #HW_badge.HW_softHidden {
   background-color: floralwhite;
   transition: 100ms ease-in-out;
 }
-/* line 90, ../scss/style.scss */
+/* line 67, ../scss/style.scss */
 .o-center .calculator .keypad .press:hover {
   background-color: white;
   color: #1565C0;
 }
-/* line 94, ../scss/style.scss */
+/* line 71, ../scss/style.scss */
 .o-center .calculator .keypad .press:active {
   background-color: white;
   color: #000;
   font-size: 1.4em;
 }
-/* line 99, ../scss/style.scss */
+/* line 76, ../scss/style.scss */
 .o-center .calculator .keypad .btl {
   border-bottom-left-radius: 5px;
 }
-/* line 102, ../scss/style.scss */
+/* line 79, ../scss/style.scss */
 .o-center .calculator .keypad .btr {
   border-bottom-right-radius: 5px;
 }
-/* line 105, ../scss/style.scss */
+/* line 82, ../scss/style.scss */
 .o-center .calculator .keypad .tpr {
   border-top-right-radius: 5px;
 }
-/* line 108, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .o-center .calculator .keypad .tpl {
   border-top-left-radius: 5px;
 }
-/* line 111, ../scss/style.scss */
+/* line 88, ../scss/style.scss */
 .o-center .calculator .keypad .oprtrCalc {
   border-left: 4px solid floralwhite;
   transition: 100ms ease-in-out;
 }
-/* line 115, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 .o-center .calculator .keypad .oprtrCalc:hover {
   border-left-color: #00BCD4;
 }
-/* line 118, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .o-center .calculator .keypad .oprtrCalc:active {
   border-left-color: #000;
 }
-/* line 121, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 .o-center .calculator .keypad .num-calc {
   border-top: 4px solid floralwhite;
 }
-/* line 124, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 .o-center .calculator .keypad .num-calc:hover {
   border-top-color: #fa0000;
 }
-/* line 127, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 .o-center .calculator .keypad button {
   border: 0;
   outline-style: none;
 }
-/* line 133, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
 .o-center .calculator:hover {
   box-shadow: 1px 10px 20px transparent;
 }
-/* line 136, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 .o-center .hdr {
   display: flex;
   justify-content: flex-end;
